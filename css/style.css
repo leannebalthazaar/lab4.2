@@ -1,1 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+}
 
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.Header{
+    grid-column: 1/-1;
+    background-color: #CAD2C5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.logo-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
+.website-sections{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.About{
+    grid-column: 1/3;
+    padding: 20px;
+    background-color: #84A98C;
+}
+
+nav{
+    grid-column: 3/4;
+    padding: 20px;
+    background-color: #52796F;
+}
+
+nav a{
+    color: black;
+}
+
+.cards{
+    padding: 20px;
+    background-color: #354F52;
+    grid-column: 1/-1;
+
+    layout: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.cardsection1{
+    background-color: white;
+    padding: 15px;
+    grid-column: 1/2;
+    border-radius: 18px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.cardsection1 hr{
+    border: none;
+    border-top: 1px solid #444;
+    margin: 16px 3px 12px;
+}
+
+.cardsection1 h4{
+    margin: 0 5px 6px;
+}
+
+.cardsection1 p{
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0 5px 10px;
+}
+
+.cardsection2{
+    background-color: white;
+    padding: 15px;
+    grid-column: 2/3;
+    border-radius: 18px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.cardsection2 hr{
+    border: none;
+    border-top: 1px solid #444;
+    margin: 16px 3px 12px;
+}
+
+.cardsection2 h4{
+    margin: 0 5px 6px;
+}
+
+.cardsection2 p{
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0 5px 10px;
+}
+
+.cardsection3{
+    background-color: white;
+    padding: 15px;
+    grid-column: 3/4;
+    border-radius: 18px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.cardsection3 hr{
+    border: none;
+    border-top: 1px solid #444;
+    margin: 16px 3px 12px;
+}
+
+.cardsection3 h4{
+    margin: 0 5px 6px;
+}
+
+.cardsection3 p{
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0 5px 10px;
+}
+
+.cardsection4{
+    background-color: white;
+    padding: 15px;
+    grid-column: 4/5;
+    border-radius: 18px;
+    width: 250px;
+    box-sizing: border-box;
+}
+
+.cardsection4 hr{
+    border: none;
+    border-top: 1px solid #444;
+    margin: 16px 3px 12px;
+}
+
+.cardsection4 h4{
+    margin: 0 5px 6px;
+}
+
+.cardsection4 p{
+    font-size: 14px;
+    line-height: 1.3;
+    margin: 0 5px 10px;
+}
+
+.CardImage{
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 13px;
+    display: block;
+}
+
+.Footer{
+    background-color: #2F3E46;
+    color: white;
+    grid-column: 1/-1;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.footer a{
+    color: white;
+}
